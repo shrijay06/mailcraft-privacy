@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MailCraft — Privacy Policy</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1c1b1f; --muted:#5f5b66; --accent:#00796b; --card:#eef6f4; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141218; --fg:#e6e0e9; --muted:#b5aec0; --accent:#4fd1c5; --card:#1f2625; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; } h2 { font-size:19px; margin:32px 0 8px; color:var(--accent); }
+  .muted { color:var(--muted); } .card { background:var(--card); border-radius:12px; padding:16px 20px; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; font-size:15px; } th,td { text-align:left; padding:8px; border-bottom:1px solid color-mix(in srgb,var(--muted) 30%,transparent); vertical-align:top; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>MailCraft — Privacy Policy</h1>
+<p class="muted">Last updated: 24 November 2026 · App: MailCraft (com.shrijay.mailcraft)</p>
+
+<div class="card">
+<strong>In short:</strong> MailCraft has no servers, no ads and no analytics. Your templates, contacts lists (CSV files)
+and drafts stay on your phone. Emails leave your phone only when <em>you</em> send them, either through your own Gmail
+account (Gmail API) or through a mail app you choose. The developer never receives your emails or data.
+</div>
+
+<h2>1. Templates, drafts and recipient lists</h2>
+<p>Email templates, drafts, photos you add, scheduled emails and CSV recipient lists you import are stored only in the
+app's private storage on your device. MailCraft reads a CSV or image file only when you pick it.</p>
+
+<h2>2. Sending directly through Gmail (optional)</h2>
+<p>If you add a Google account in Settings, MailCraft asks Google for one permission:
+<code>https://www.googleapis.com/auth/gmail.send</code> ("Send email on your behalf"). MailCraft uses it
+<strong>only to send the emails you compose, schedule or bulk-send</strong>. It cannot read, delete or modify your mailbox.
+The email (recipients, subject, body and attachments) is sent over HTTPS directly from your phone to Google's Gmail API.
+Google's handling is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+You can remove access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+or in MailCraft Settings.</p>
+<p>MailCraft's use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements. Google user data is never transferred to the developer or any third party,
+never used for advertising, and never read by humans.</p>
+
+<h2>3. Sending through a mail app</h2>
+<p>If you choose "Mail app", MailCraft fills in the email and hands it to the app you pick (for example Gmail or Outlook).
+You send it from that app, under that app's privacy policy.</p>
+
+<h2>4. Permissions</h2>
+<table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td>Internet, network state</td><td>Sending emails through the Gmail API when you send or schedule them.</td></tr>
+<tr><td>Accounts (Android 7 and older only)</td><td>To let you pick the Google account to send from.</td></tr>
+<tr><td>Notifications</td><td>Progress of bulk sends, scheduled-send results and reminders.</td></tr>
+<tr><td>Foreground service (data sync), wake lock</td><td>To finish a bulk or scheduled send you started without being stopped by the system.</td></tr>
+</table>
+
+<h2>5. What we do not do</h2>
+<ul>
+  <li>No analytics, crash reporting, advertising or tracking SDKs.</li>
+  <li>No developer server: the developer cannot see your emails, templates, contacts or usage.</li>
+  <li>No selling or sharing of data. The app is not directed at children under 13.</li>
+</ul>
+
+<h2>6. Deleting your data</h2>
+<p>Delete templates, drafts and lists in the app, remove your Google account in Settings, or uninstall the app to delete
+all local data. Emails you already sent remain in your Gmail "Sent" folder and are managed by Google.</p>
+
+<h2>7. Changes and contact</h2>
+<p>If this policy changes, the new version will be posted on this page with a new date.
+Questions: <a href="mailto:shrijaynandgawkar73@gmail.com">shrijaynandgawkar73@gmail.com</a></p>
+</main>
+</body>
+</html>
